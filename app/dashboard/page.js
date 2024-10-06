@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { Footer, Navbar, ExploreCard } from '../../components';
 import { exploreWorlds } from '../../constants';
 
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = "";
 
 const DashboardPage = () => {
   const { user, isSignedIn } = useUser();

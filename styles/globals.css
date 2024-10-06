@@ -105,7 +105,7 @@
   background: #65c4fa;
   filter: blur(150px);
 }
-.animated-button {
+.animated-button, .navbutton {
   background-color: white;
   color: black;
   border: none;
@@ -117,7 +117,7 @@
   transition: all 0.3s ease;
 }
 
-.animated-button:hover {
+.animated-button:hover, .navbutton:hover {
   background-color: #f0f0f0;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);

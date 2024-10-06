@@ -11,6 +11,10 @@ Welcome to **Cosmify**, your gateway to cosmic adventures! This interactive plat
 - **Dynamic Learning**: Discover celestial wonders and uncover the mysteries of the universe while having fun!
 - **Invite Friends**: Explore together and share unforgettable cosmic experiences.
 
+## 🌟 DEMO
+https://www.youtube.com/watch?v=EF7Uk7P5wao
+<video controls src="NASA  SPACE APP - Made with Clipchamp.mp4" title="Title"></video>
+
 ## 🌟 Getting Started
 
 To get started with Cosmify, follow these steps:
@@ -33,9 +37,9 @@ To get started with Cosmify, follow these steps:
 
 ## 🎨 Technologies Used
 
-- **Frontend**: React.js
+- **Frontend**: React/NextJS
 - **Backend**: Node.js
-- **Chatbot**: Integrates with AI for interactive responses
+- **Chatbot**: Integrates with Llama LLM for interactive responses
 - **APIs**: Utilizes NASA and other space-related APIs for data
 
 ## 📄 Contributing
@@ -46,7 +50,7 @@ We welcome contributions! If you'd like to contribute, please fork the repositor
 
 Have questions or suggestions? Feel free to open an issue or reach out to us!
 
-- [GitHub Issues](https://github.com/yourusername/cosmify/issues)
+- [GitHub Issues](https://github.com/atqarana/cosmify/issues)
 
 ## 🌌 License
 
@@ -56,5 +60,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Join us on this cosmic journey and let's explore the universe together!
 ```
-
-Feel free to customize any sections, such as the repository link, technologies used, or any other specific details you want to include!

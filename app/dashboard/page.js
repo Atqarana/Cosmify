@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { Footer, Navbar, ExploreCard } from '../../components';
 import { exploreWorlds } from '../../constants';
 
-const GROQ_API_KEY = "";
+
 
 const DashboardPage = () => {
   const { user, isSignedIn } = useUser();
@@ -65,7 +65,7 @@ const DashboardPage = () => {
       const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${GROQ_API_KEY}`,
+          'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({

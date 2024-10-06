@@ -6,8 +6,6 @@ import { useRouter } from 'next/navigation';
 import { Footer, Navbar, ExploreCard } from '../../components';
 import { exploreWorlds } from '../../constants';
 
-
-
 const DashboardPage = () => {
   const { user, isSignedIn } = useUser();
   const router = useRouter();

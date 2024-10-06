@@ -3,10 +3,23 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  
+    "extends": "next/core-web-vitals",
+    rules: {
+      'lines-around-directive': 'off',
+      'import/no-unresolved': 'off',
+      'quotes': ['error', 'single'],
+      'no-unused-vars': 'warn',
+      'arrow-parens': ['error', 'always'],
+      'quote-props': ['error', 'as-needed'],
+      'comma-dangle': ['error', 'always-multiline'],
+      'react/button-has-type': 'off',
+      'eol-last': 'off',
+      'no-trailing-spaces': 'off',
+      'no-multiple-empty-lines': 'off',
+    },
+    
+  
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

@@ -38,8 +38,6 @@ const Footer = () => (
           <h4 className="font-extrabold text-[24px] text-white">
             CONSMIFY
           </h4>
-        
-
           <div className="flex gap-4">
             {socials.map((social) => (
               <a key={social.name} href={social.link}>

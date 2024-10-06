@@ -1,6 +1,6 @@
 
 
-```
+
 # Cosmify 🌌
 
 Welcome to **Cosmify**, your gateway to cosmic adventures! This interactive platform allows users to explore the wonders of space through engaging storytelling and personalized journeys, all guided by our friendly chatbot.
